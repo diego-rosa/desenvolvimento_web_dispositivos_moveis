@@ -1,3 +1,23 @@
+
+/* selicionar todos os elementos do html  */
 * {
+    /* Zerar os espaçamentos dos elementos  */
     margin: 0;
+    padding: 0;
+    /* Considera a borda ao definir largura e altura */
+    box-sizing: border-box;
+
+    body {
+        /* Defini uma familia padrão de fonte  */
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+        /* defini o tamanho padrão da fonte  */
+        font-size: 16px;
+
+        /* Defini a cor de texto padão  */
+        color: #333;
+
+        /* Definir um alinhamento padão dos textos  */
+        text-align: center;
+     }
 }
