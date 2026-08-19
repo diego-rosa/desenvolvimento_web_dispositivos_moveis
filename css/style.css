@@ -20,4 +20,19 @@
         /* Definir um alinhamento padão dos textos  */
         text-align: center;
      }
+
+     /* Seleciona todos os elemento  com a classe "Container"  */
+    .container {
+        /* Defini a largura minima  */
+        min-width: 400px;
+
+        /* Defini a largura maxima  */
+        max-width: 1200px;
+
+        /* Defini a cor de fundo  */
+        background-color: grey;
+        
+        /* Centraliza container  */
+        margin: 0 auto;
+    }
 }
